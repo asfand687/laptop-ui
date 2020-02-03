@@ -242,4 +242,21 @@ button {
     margin-top: 7vh;
     text-align: center;
   }
+
+  .cta {
+  	display: flex;
+  	flex-direction: column;
+  	-ms-align-items: center;
+  	align-items: center;
+  }
+
+  .cta-add {
+  	margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+	.cart {
+		padding-bottom: 40px;
+	}
 }
