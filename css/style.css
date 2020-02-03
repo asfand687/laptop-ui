@@ -227,7 +227,7 @@ button {
   }
 
   .cart {
-    padding: 12px 0;
+    padding: 12px 0 22px 0;
   }
 
   .introduction {
@@ -236,5 +236,10 @@ button {
 
   .logo {
     display: none;
+  }
+
+  .introduction {
+    margin-top: 7vh;
+    text-align: center;
   }
 }
